@@ -5,6 +5,8 @@ Two players start from 0 and alternatively add a number from 1 to 10 to the sum.
 
 
 #function to make sure the user inputs right integer input
+
+
 def get_int(prompt):
     while True:
         try:
@@ -20,6 +22,8 @@ def get_int(prompt):
     return value
 
 #function to make sure the user inputs right string input
+
+
 def get_str(prompt):
     while True:
         try:
@@ -32,11 +36,15 @@ def get_str(prompt):
     return value
 
 #function to add numbers
+
+
 def addnum(start,num):
     total = start + num
     return total
 
 #main game
+
+
 play = True
 while play:
     print('Welcome to 100 Game!')
